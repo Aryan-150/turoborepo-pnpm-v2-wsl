@@ -1,4 +1,4 @@
-import { PrismaClient } from "./../generated/client";
+import { PrismaClient } from "./generated/client/client";
 
 export const prisma = new PrismaClient();
-export * from "./../generated/client";
+export * from "./generated/client/client";
